@@ -202,16 +202,18 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
-    color: hsla(0, 0%, 0%, 0.8);
-    font-family: "-apple-system","Blink","MacSystemFont","Segoe UI","Roboto","Oxygen", "Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-weight: normal;
+    color: #717171;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 300;
     word-wrap: break-word;
     font-kerning: normal;
-    font-size: 1rem;
+    font-size: 16px;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
+    letter-spacing: 0.5px;
+    line-height: 2rem;
   }
   img {
     max-width: 100%;
@@ -250,13 +252,13 @@ const GlobalStyles = createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 1.62671rem;
-    line-height: 1.1;
+    color: #181A48;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: 0.5px;
   }
   h3 {
     margin-left: 0;
@@ -267,13 +269,12 @@ const GlobalStyles = createGlobalStyle`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 1.38316rem;
     line-height: 1.1;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
   }
   h4 {
     margin-left: 0;

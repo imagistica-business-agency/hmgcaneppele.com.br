@@ -14,9 +14,11 @@ const Footer = () => (
     <Container>
       <S.FooterList>
         <S.FooterItem>
-          <Link to="/" alt="">
-            <img src={logo} alt="" />
-          </Link>
+          <S.FooterLogoWrapper>
+            <Link to="/" alt="">
+              <img src={logo} alt="" />
+            </Link>
+          </S.FooterLogoWrapper>
           <S.FooterAddress>
             Rua Guimarães Rosa Vila Portes, 2039 (3,39km),{' '}
             <S.NoBreak>Foz do Iguaçu,</S.NoBreak> Paraná,{' '}
