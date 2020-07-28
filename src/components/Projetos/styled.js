@@ -10,5 +10,5 @@ export const ProjetosWrapper = styled.section`
 `
 
 export const ProjetosItems = styled.div`
-  margin-top: -190px;
+  margin: -190px 0 90px;
 `

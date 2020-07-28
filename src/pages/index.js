@@ -5,6 +5,7 @@ import SEO from '../components/SEO'
 import Projetos from '../components/Projetos'
 import Diferencial from '../components/Diferencial'
 import Equipe from '../components/Equipe'
+import ContactBanner from '../components/ContactBanner'
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Projetos />
     <Diferencial />
     <Equipe />
+    <ContactBanner />
   </Layout>
 )
 

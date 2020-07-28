@@ -1,12 +1,14 @@
 import React from 'react'
 import { Container } from '../Container/styled'
 import * as S from './styled'
+import Divider from '../Divider'
 
 const Diferenciais = () => (
   <Container>
     <S.DiferencialWrapper>
       <div>
         <h2>Nosso Diferencial</h2>
+        <Divider />
         <p>
           Em todos os serviços prestados são utilizados equipamentos de última
           geração, que consigam acompanhar as tecnologias e materiais utilizados
