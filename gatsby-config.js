@@ -67,6 +67,17 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`300`, `300i`, `600`, `700`]
+          }
+        ]
+      }
+    },
     `gatsby-plugin-offline`
   ]
 }
